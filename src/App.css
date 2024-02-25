@@ -1,0 +1,39 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-details {
+    max-width: 32%;
+}
+
+.product-details {
+    color: #fff;
+}
+
+.product-details-item {
+    margin-top: .5rem;
+}
+
+.product-details img {
+
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.addToCart {
+    padding: 1rem 2rem;
+    background: #fff;
+    background: blue;
+    border: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+}
